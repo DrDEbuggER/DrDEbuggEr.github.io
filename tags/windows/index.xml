@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Windows - Tag - My New Hugo Site</title>
+        <title>Windows - Tag - Welcome To Windows Kernel World</title>
         <link>https://drdebugger.github.io/tags/windows/</link>
-        <description>Windows - Tag - My New Hugo Site</description>
+        <description>Windows - Tag - Welcome To Windows Kernel World</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</lastBuildDate><atom:link href="https://drdebugger.github.io/tags/windows/" rel="self" type="application/rss+xml" /><item>
     <title>Kernel Debugging For Starter</title>
     <link>https://drdebugger.github.io/posts/kernel_debugger/</link>

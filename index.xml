@@ -1,6 +1,6 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Welcome To Windows Kernel World</title>
+        <title>Only Windows Kernel</title>
         <link>https://drdebugger.github.io/</link>
         <description>Windows Kernel World</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</lastBuildDate>
@@ -11,7 +11,7 @@
     <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
     <author>DrDEbuggER</author>
     <guid>https://drdebugger.github.io/posts/kernel_debugger/</guid>
-    <description><![CDATA[Welcome to kernel debugging. ]]></description>
+    <description><![CDATA[Introduction Thank You For visiting!! Posts are under development.. Please visit after 2024-01-01]]></description>
 </item>
 </channel>
 </rss>

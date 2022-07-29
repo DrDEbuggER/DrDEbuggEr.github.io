@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Kernel Debugging For Starter - Welcome To Windows Kernel World</title><meta name="Description" content="This article shows the basic Markdown syntax and format."><meta property="og:title" content="Kernel Debugging For Starter" />
+        <title>Kernel Debugging For Starter - Only Windows Kernel</title><meta name="Description" content="This article shows the basic Markdown syntax and format."><meta property="og:title" content="Kernel Debugging For Starter" />
 <meta property="og:description" content="This article shows the basic Markdown syntax and format." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://drdebugger.github.io/posts/kernel_debugger/" /><meta property="og:image" content="https://drdebugger.github.io/logo.png"/><meta property="article:section" content="posts" />
@@ -16,8 +16,8 @@
 
 <meta name="twitter:title" content="Kernel Debugging For Starter"/>
 <meta name="twitter:description" content="This article shows the basic Markdown syntax and format."/>
-<meta name="application-name" content="My cool site">
-<meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<meta name="application-name" content="DrDEbuggER">
+<meta name="apple-mobile-web-app-title" content="DrDEbuggER"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://drdebugger.github.io/posts/kernel_debugger/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -30,7 +30,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/drdebugger.github.io\/posts\/kernel_debugger\/"
-        },"genre": "posts","keywords": "Kernel, Windows","wordcount":  4 ,
+        },"genre": "posts","keywords": "Kernel, Windows, Debugging","wordcount":  13 ,
         "url": "https:\/\/drdebugger.github.io\/posts\/kernel_debugger\/","datePublished": "2019-12-01T21:57:40+08:00","dateModified": "2020-01-01T16:45:40+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -44,7 +44,7 @@
         <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
         <div class="header-title">
-            <a href="/" title="Welcome To Windows Kernel World"></a>
+            <a href="/" title="Only Windows Kernel">☠️ DrDEbuggER</a>
         </div>
         <div class="menu">
             <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
@@ -67,7 +67,7 @@
     <div class="header-container">
         <div class="header-wrapper">
             <div class="header-title">
-                <a href="/" title="Welcome To Windows Kernel World"></a>
+                <a href="/" title="Only Windows Kernel">☠️ DrDEbuggER</a>
             </div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
@@ -103,8 +103,8 @@
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Kernel Debugging For Starter</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>DrDEbuggER</a></span>&nbsp;<span class="post-category">included in <a href="/categories/kernel/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Kernel</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2019-12-01">2019-12-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;4 words&nbsp;
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>DrDEbuggER</a></span>&nbsp;<span class="post-category">included in <a href="/categories/kernel/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Kernel</a>&nbsp;<a href="/categories/debugging/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Debugging</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2019-12-01">2019-12-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;13 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -113,10 +113,12 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#welcome-to-kernel-debugging">Welcome to kernel debugging.</a></li>
+    <li><a href="#introduction">Introduction</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h2 id="welcome-to-kernel-debugging">Welcome to kernel debugging.</h2>
+            </div><div class="content" id="content"><h2 id="introduction">Introduction</h2>
+<p><strong>Thank You</strong> For visiting!! Posts are under development..
+Please visit after <strong>2024-01-01</strong></p>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -126,13 +128,13 @@
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://drdebugger.github.io/posts/kernel_debugger/" data-title="Kernel Debugging For Starter" data-via="xxxx" data-hashtags="Kernel,Windows"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://drdebugger.github.io/posts/kernel_debugger/" data-hashtag="Kernel"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://drdebugger.github.io/posts/kernel_debugger/" data-title="Kernel Debugging For Starter"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://drdebugger.github.io/posts/kernel_debugger/" data-title="Kernel Debugging For Starter"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://drdebugger.github.io/posts/kernel_debugger/" data-title="Kernel Debugging For Starter"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="https://drdebugger.github.io/posts/kernel_debugger/" data-title="Kernel Debugging For Starter" data-via="xxxx" data-hashtags="Kernel,Windows,Debugging"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="https://drdebugger.github.io/posts/kernel_debugger/" data-hashtag="Kernel"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="https://drdebugger.github.io/posts/kernel_debugger/" data-title="Kernel Debugging For Starter"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="https://drdebugger.github.io/posts/kernel_debugger/" data-title="Kernel Debugging For Starter"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="https://drdebugger.github.io/posts/kernel_debugger/" data-title="Kernel Debugging For Starter"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/kernel/">Kernel</a>,&nbsp;<a href="/tags/windows/">Windows</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/kernel/">Kernel</a>,&nbsp;<a href="/tags/windows/">Windows</a>,&nbsp;<a href="/tags/debugging/">Debugging</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
